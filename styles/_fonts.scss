@@ -1,0 +1,87 @@
+/* .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  } */
+
+  /* .source-sans-3-<uniquifier> {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+/* 
+  .aldrich-regular {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } */
+//   .baloo-bhaijaan-2-<uniquifier> {
+//     font-family: "Baloo Bhaijaan 2", sans-serif;
+//     font-optical-sizing: auto;
+//     font-weight: <weight>;
+//     font-style: normal;
+//   }
+
+h3 {
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navigation__list {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-size: 24px;
+}
+
+p {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300px;
+    font-style: normal;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@media screen and (max-width: 2000px) {
+    .logopart h3 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .logopart h3 {
+        font-family: "Baloo Bhaijaan 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300px;
+        font-style: normal;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logopart h3 {
+        font-family: "Baloo Bhaijaan 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 300px;
+        font-style: normal;
+        font-size: 24px;
+    }
+}
