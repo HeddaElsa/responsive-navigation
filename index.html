@@ -18,12 +18,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <body>
     <div class="screen">
 
         <div class="header">
+            <div class="logopart">
+                <h3>Head.</h3>
+            </div>
+            <div class="nav" id="mynav">
+                <a href="#works" class="active">Works</a>
+                <a href="#services">Services</a>
+                <a href="#contacts">Contacts</a>       
+                <a class="icon" onclick="burgermenu()">
+                <i class="fa fa-bars"></i> 
+                </a>
+            </div>
+        </div>    
+
+        <script>
+            function burgerMenu() {
+                let burger = document.getElementById("mynav");
+                if (burger.className === "nav") {
+                burger.className += " responsive";
+                } else {
+                burger.className = "nav";
+                }
+            }
+        </script>
+
+        <!-- old header -->
+        <!-- <div class="header">
             <div class="logopart">
                 <h3>Head.</h3>
             </div>
@@ -35,11 +62,7 @@
               </ul>
             </nav>
             <img class="icon" src="images/Icon.png" alt="dots">
-            <!-- <picture class="icon">
-                <source media="(max-width: 320px)" srcset="./images/Icon.png">
-                <img src="images/Icon.png" alt="dots">
-            </picture> -->
-        </div>
+        </div> -->
 
         <div class="main">
             <div class="main__textpart">
